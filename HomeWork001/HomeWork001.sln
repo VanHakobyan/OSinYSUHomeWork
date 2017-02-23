@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilrCuter", "HomeWork001\Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyAllToSecond", "CopyAllToSecond\CopyAllToSecond.csproj", "{320F365B-8C79-43C6-ABE5-F11887D5DBF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Upper case", "Upper case\Upper case.csproj", "{C30BAB5D-EE63-4537-B648-9676D61FA26B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{320F365B-8C79-43C6-ABE5-F11887D5DBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{320F365B-8C79-43C6-ABE5-F11887D5DBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{320F365B-8C79-43C6-ABE5-F11887D5DBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30BAB5D-EE63-4537-B648-9676D61FA26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30BAB5D-EE63-4537-B648-9676D61FA26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30BAB5D-EE63-4537-B648-9676D61FA26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30BAB5D-EE63-4537-B648-9676D61FA26B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
