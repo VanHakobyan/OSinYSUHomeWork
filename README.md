@@ -1,4 +1,4 @@
-<p align="centre">
+<p align="center">
 <img src="https://i.gyazo.com/f1a3fe3cf76951f9f6754637e8c6f4f5.png">
 <p/>
 
