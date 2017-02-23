@@ -7,13 +7,17 @@ namespace HomeWork001
     {
         static void Main(string[] args)
         {
-            string sourceDir = @"f:\current";
-            string backupDir = @"f:\archives";
-
+            Console.Write("imput sourceDir = ");
+            string sourceDir = Console.ReadLine();
+            Console.WriteLine();
+            Console.Write("imput backupDir = ");
+            string backupDir = Console.ReadLine();
+            Console.WriteLine();
+            
             try
             {
-                string[] picList = Directory.GetFiles(sourceDir, "*.jpg");
-                string[] txtList = Directory.GetFiles(sourceDir, "*.txt");
+                string[] picList = Directory.GetFiles(sourceDir, @"*.jpg");
+                string[] txtList = Directory.GetFiles(sourceDir, @"*.txt");
 
                 foreach (string f in picList)
                 {

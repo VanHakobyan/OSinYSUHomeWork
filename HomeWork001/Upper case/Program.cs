@@ -10,9 +10,13 @@ namespace Upper_case
     {
         static void Main(string[] args)
         {
-            
-
-            string st = File.ReadAllText(@"D:\text.txt");
+            Console.Write("input path of text file");
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write("(Ներմուծեք տեքստային ֆայլի հասցեն)"+" = ");
+            Console.ForegroundColor = ConsoleColor.White;
+            string path = Console.ReadLine();
+            string st = File.ReadAllText(@path);
             Console.WriteLine("all text");
             Console.WriteLine();
             Console.WriteLine(st);
@@ -24,6 +28,7 @@ namespace Upper_case
                 if (st[i] >= 'A' && st[i] <= 'Z')
                     Console.Write(st[i]+" ");
             }
+            Console.ReadKey();
         }
     }
 }
