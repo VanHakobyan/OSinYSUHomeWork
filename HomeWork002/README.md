@@ -23,4 +23,4 @@
 <img src="https://github.com/VanHakobyan/OSinYSU-HomeWork-/blob/master/HomeWork002/Reverse.gif?raw=true">
 </p>
 
-*For .exe file <a href="https://drive.google.com/open?id=0By1MH5wlD0LhZXBtNzdYaVFfSXc" title="Reversing.exe">Backmasking</a> 
+* For .exe file <a href="https://drive.google.com/open?id=0By1MH5wlD0LhZXBtNzdYaVFfSXc" title="Reversing.exe">Reversing.exe</a> 
