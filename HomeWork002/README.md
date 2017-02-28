@@ -19,3 +19,6 @@
 </ul>
 </li>
 </ul>
+<p align="center">
+<img src="https://github.com/VanHakobyan/OSinYSU-HomeWork-/blob/master/HomeWork002/Reverse.gif?raw=true">
+</p>
