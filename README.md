@@ -6,7 +6,8 @@
 <p><a href="https://en.wikipedia.org/wiki/Time-sharing" title="Time-sharing">Time-sharing</a> operating systems <a href="https://en.wikipedia.org/wiki/Scheduler_(computing)" class="mw-redirect" title="Scheduler (computing)">schedule tasks</a> for efficient use of the system and may also include accounting software for cost allocation of <a href="https://en.wikipedia.org/wiki/Processor_time" class="mw-redirect" title="Processor time">processor time</a>, <a href="https://en.wikipedia.org/wiki/Mass_storage" title="Mass storage">mass storage</a>, <a href="https://en.wikipedia.org/wiki/Printer_(computing)" title="Printer (computing)">printing</a>, and other resources.</p>
 
 <br>
- ### About it
+
+<h4>About it</h4>
 
 * Visual Studio community 2017
 * C# 7.0 .NET Framework 4.6
