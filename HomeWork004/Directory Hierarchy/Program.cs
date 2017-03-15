@@ -10,6 +10,7 @@ namespace Directory_Hierarchy
         {
             string[] directories = fullPath.Split('\\');
             string subPath = string.Empty;
+
             int cursorUp = 0;
             int cursorLeft = 0;
 
@@ -17,6 +18,7 @@ namespace Directory_Hierarchy
             int longestFolder = 0;
             int longestName = 0;
             int j = 0;
+
             for (int i = 0; i < directories.Length - 1; i++)
             {
                 subPath += directories[i] + @"\";
@@ -67,11 +69,13 @@ namespace Directory_Hierarchy
 
                 cursorUp += Array.IndexOf(folders, directories[i + 1]) + 1;
                 cursorLeft += longestName + 3;
+                
             }
         }
 
         static void Main(string[] args)
         {
+
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.Write("Input path - ");
             string path = Console.ReadLine();
@@ -88,6 +92,7 @@ namespace Directory_Hierarchy
             {
                 Console.WriteLine(e.Message);
             }
+            
 
             Console.ReadKey();
         }
