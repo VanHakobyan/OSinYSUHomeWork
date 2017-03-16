@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory Hierarchy", "Directory Hierarchy\Directory Hierarchy.csproj", "{1A872A9B-E8C9-4D05-A380-2F71B2C6846A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileMan", "File\FileMan.csproj", "{1E60CC17-E3B4-4E33-87F9-20790A579662}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopCleaner", "File\DesktopCleaner.csproj", "{1E60CC17-E3B4-4E33-87F9-20790A579662}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
