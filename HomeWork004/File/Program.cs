@@ -11,9 +11,9 @@ namespace DesktopCleaner
         public static void Desktop()
         {
             desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            foreach (var filr in Directory.GetFiles(desktopPath))
-                if (filr.Split('.')[filr.Split('.').Length - 1] != "exe")
-                    File.Delete(filr);
+            foreach (var file in Directory.GetFiles(desktopPath))
+                if (file.Split('.')[file.Split('.').Length - 1] != "exe")
+                    File.Delete(file);
             Console.WriteLine("File Deleted!");
         }
         public static void DeleteFrom(string path, string suffix)
