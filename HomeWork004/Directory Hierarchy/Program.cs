@@ -40,6 +40,7 @@ namespace Directory_Hierarchy
                         Console.WriteLine("+" + folders[k]);
                         j++;
                     }
+
                     else
                     {
                         if (i != directories.Length - 2)
