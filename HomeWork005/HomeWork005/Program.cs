@@ -15,16 +15,15 @@ namespace HomeWork005
             int count = 1;
             string fileName = string.Empty;
             string destinationFilePath = string.Empty;
-            foreach (var sourceFilePath in Directory.GetFiles(sourcePath))
+            foreach (var sourceFilePath in Directory.GetFiles(sourcePath,"*"))
             {
                 fileName = Path.GetFileName(sourceFilePath);
                 destinationFilePath = Path.Combine(targetPath, fileName);
-                File.Copy(sourceFilePath, destinationFilePath, true);
-                Console.WriteLine($"Copied a {count} file");
-                count++;
+                File.Copy(sourceFilePath, destinationFilePath,true);
+                Console.WriteLine($"Copied a {count++} file");
             }
             Console.WriteLine("\nBeing copied to completed !!!");
-            Console.WriteLine($"Total {count} file are Copied !!!\n");
+            Console.WriteLine($"Total {count-1} file are Copied !!!\n");
 
 
 
