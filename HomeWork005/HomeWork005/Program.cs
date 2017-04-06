@@ -3,19 +3,22 @@
 
 using System;
 using System.IO;
+
 namespace HomeWork005
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string sourcePath = @"D:\TestSource";
             string targetPath = @"D:\TestFolder";
             int count = 1;
+            string fileName = string.Empty;
+            string destinationFilePath = string.Empty;
             foreach (var sourceFilePath in Directory.GetFiles(sourcePath))
             {
-                string fileName = Path.GetFileName(sourceFilePath);
-                string destinationFilePath = Path.Combine(targetPath, fileName);
+                fileName = Path.GetFileName(sourceFilePath);
+                destinationFilePath = Path.Combine(targetPath, fileName);
                 File.Copy(sourceFilePath, destinationFilePath, true);
                 Console.WriteLine($"Copied a {count} file");
                 count++;
