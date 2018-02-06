@@ -42,37 +42,37 @@ namespace C2C.FileSystem
 		public ShellIcon()
 		{
 			//
-			// TODO: Add constructor logic here
+			// TODO: Add constructor logic here implement
 			//
 		}
 
 
 		public static Icon GetSmallIcon(string fileName)
 		{
-			IntPtr hImgSmall; //the handle to the system image list
+			IntPtr hImgSmall;
 			SHFILEINFO shinfo = new SHFILEINFO();
 
 
-			//Use this to get the small Icon
+			
 			hImgSmall = Win32.SHGetFileInfo(fileName, 0, ref shinfo,(uint)Marshal.SizeOf(shinfo),Win32.SHGFI_ICON | Win32.SHGFI_SMALLICON);
 
 
-			//The icon is returned in the hIcon member of the shinfo struct
+			
 			return System.Drawing.Icon.FromHandle(shinfo.hIcon);                
 		}
 
 
 		public static Icon GetLargeIcon(string fileName)
 		{
-			IntPtr hImgLarge; //the handle to the system image list
+			IntPtr hImgLarge; 
 			SHFILEINFO shinfo = new SHFILEINFO();
 
 
-			//Use this to get the large Icon
+			
 			hImgLarge = Win32.SHGetFileInfo(fileName, 0, ref shinfo, (uint)Marshal.SizeOf(shinfo), Win32.SHGFI_ICON | Win32.SHGFI_LARGEICON);
 
 
-			//The icon is returned in the hIcon member of the shinfo struct
+			
 			return System.Drawing.Icon.FromHandle(shinfo.hIcon);                
 		}
 	}
